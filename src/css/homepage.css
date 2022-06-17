@@ -157,6 +157,15 @@ main{
 }
 
 @media only screen and (max-width: 870px){
+  .ig-section-layout-border{
+    border:none;
+    background-color:transparent;
+  }
+
+  .ig-article{
+    margin-top:0px;
+  }
+
   .ig-content-mobile{
     display:none;
   }
