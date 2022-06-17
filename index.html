@@ -5,33 +5,84 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Intagram</title>
+  <title>Instagram</title>
   <link rel="stylesheet" href="src/css/homepage.css">
   <link rel="shortcut icon" href="src/img/icon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <main class="ig-flex ig-content-center">
     <article class="ig-flex ig-article ig-content-space-around ig-align-stretch">
-      <div class="w-100">
+      <div class="w-100  ig-content-mobile">
         <img src="src/img/mobile.png" />
       </div>
-      <div class="w-100 ig-section-dir-col">
-        <section class="ig-section-layout-border">
+      <div class="ig-section-dir-col">
+        <section class="ig-section-layout-border ig-section-layout-padding-g">
           <div class="ig-flex ig-content-center">
             <img src="src/img/logo.png" />
           </div>
-          <div class="">
+          <div>
             <form class="ig-flex ig-section-dir-col ig-form">
-              <input class="ig-form-input" type="text" value="" placeholder="Número de telemóvel, nome de utilizador ..."/>
-              <input class="ig-form-input" type="text" placeholder="Palavra-passe"/>
-              <input class="ig-form-button" type="button" value="Iniciar sessão">
+              <input class="ig-form-input" type="text" value="" placeholder="Telefone, nome de usuário ou email" />
+              <input class="ig-form-input ig-m-t05" type="password" placeholder="Senha" />
+              <input class="ig-form-button ig-m-t1" type="button" value="Entrar">
             </form>
+          </div>
+          <div>
+            <p class="ig-title-divisor ig-text-center ig-m-t1">OU</p>
+          </div>
+          <div class="ig-link-container ig-flex ig-content-center ig-m-t1">
+            <img src="src/img/diologo.png" alt="Logo da maior plataforma de cursos Dio.">
+            <a class="ig-link" href="#">Entrar com a Dio</a>
+          </div>
+          <div class="ig-link-container ig-flex ig-content-center ig-m-t1">
+            <a class="ig-link ig-textsize-1" href="#">Esqueceu a senha?</a>
+          </div>
+        </section>
+        <section class="ig-flex ig-section-layout-border ig-section-layout-padding-p ig-m-t1 ig-content-center">
+          <p class="ig-m-r05 ig-text">Não tem uma conta?</p>
+          <a class="ig-link ig-text-bold ig-color-bluelight" href="#">Cadastre-se</a>
+        </section>
+        <section>
+          <div class="ig-flex ig-content-center  ig-m-t1">
+            <p class="ig-text">Obtenha o aplicativo</p>
+          </div>
+          <div class="ig-flex ig-content-center ig-m-t2 ig-content-imgs ig-flex-align-items-stretch">
+            <a href="#"><img src="src/img/appstore.png" alt="Botão para baixar na AppStore."></a>
+            <a href="#"><img src="src/img/googleplay.png" alt="Botão para baixar no Google Play."></a>
           </div>
         </section>
       </div>
     </article>
   </main>
+  <footer class="ig-flex ig-content-center ig-footer ig-section-dir-col">
+    <ul class="ig-flex ig-flex-wrap ig-content-center">
+      <li><a class="ig-link ig-link-li" href="#">Meta</a></li>
+      <li><a class="ig-link ig-link-li" href="#">Sobre</a></li>
+      <li><a class="ig-link ig-link-li" href="#">Blog</a></li>
+      <li><a class="ig-link ig-link-li" href="#">Carreiras</a></li>
+      <li><a class="ig-link ig-link-li" href="#">Ajuda</a></li>
+      <li><a class="ig-link ig-link-li" href="#">API</a></li>
+      <li><a class="ig-link ig-link-li" href="#">Privacidade</a></li>
+      <li><a class="ig-link ig-link-li" href="#">Termos</a></li>
+      <li><a class="ig-link ig-link-li" href="#">Principais contas</a></li>
+      <li><a class="ig-link ig-link-li" href="#">Hashtags</a></li>
+      <li><a class="ig-link ig-link-li" href="#">Localizações</a></li>
+      <li><a class="ig-link ig-link-li" href="#">Instagram Lite</a></li>
+      <li><a class="ig-link ig-link-li" href="#">Carregamento de contatos e não usuários</a></li>
+      <li><a class="ig-link ig-link-li" href="#">Dança</a></li>
+      <li><a class="ig-link ig-link-li" href="#">Comida e bebida</a></li>
+      <li><a class="ig-link ig-link-li" href="#">Casa e jardim</a></li>
+      <li><a class="ig-link ig-link-li" href="#">Música</a></li>
+      <li><a class="ig-link ig-link-li" href="#">Artes Visuais</a></li>
+    </ul>
+    <div class="ig-flex ig-content-center">
+      <p class="ig-text ig-m-t05 ig-text-color-default">© 2022 Instagram from Meta</p>
+    </div>
+  </footer>
 </body>
 
 </html>
