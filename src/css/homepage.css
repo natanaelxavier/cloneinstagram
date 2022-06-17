@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  background-color: #fafafa;
+}
+
+/* Atalhos para CSS */
+.ig-flex{ display: flex; }
+.ig-content-center{justify-content: center;}
+.ig-content-space-around{justify-content: space-around;}
+.ig-glow-1{flex-grow: 1;}
+.ig-section-dir-col{flex-direction: column;}
+
+.ig-align-stretch{align-items: stretch;}
+.w-100{width: 100%;}
+
+.ig-article{
+  height: 600px;
+  width: 800px;
+  margin-top: 25px;
+
+}
+
+.ig-article .ig-glow-1{background-color: black;}
+
+.ig-section-layout-border{
+  border: 1px solid #dbdbdb;
+  background-color: white;
+  border-radius: 3px;
+  padding: 35px;
+}
+
+.ig-logo{
+  justify-items: center;
+}
+
+.ig-form{
+  margin-top: 35px;
+}
+
+.ig-form-input{
+   background-color: #fafafa;
+   border: 1px solid #dbdbdb;
+   border-radius: 2px;
+   margin: 3px;
+   padding: 10px;
+   height: 15px;
+}
+
+.ig-form-button{
+  background-color: #0095f6;
+  border: 0px;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 5px;
+  color: white;
+}
